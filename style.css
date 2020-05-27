@@ -190,6 +190,10 @@ li > a:only-child:after { content: ''; }
 --------------------------------------------- */
 
 @media all and (max-width : 991px) {
+	body{
+		margin: 0;
+		padding: 0;
+	}
 
 	#logo {
 		display: block;
@@ -343,6 +347,10 @@ li > a:only-child:after { content: ''; }
 }
 
 @media all and (max-width : 330px) {
+	body{
+		margin: 0;
+		padding: 0;
+	}
 
 	nav ul li {
 		display:block;
@@ -537,6 +545,10 @@ select {
 
 
 @media(max-width:991px) {
+	body{
+		margin: 0;
+		padding: 0;
+	}
 	h2.b-w3ltxt, h3.b-w3ltxt {
     font-size: 3.5em;
 }
