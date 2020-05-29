@@ -137,10 +137,10 @@ nav ul li ul li:hover { background: #f8f9fa; }
 
 /* Background color change on Hover */
 nav a:hover { 
-	color: #ddd;
+	color: rgb(27, 144, 173);
 }
 .menu li.active  a{ 
-	color: #fff;
+	color: rgb(199, 15, 15);
 }
 
 /* Hide Dropdowns by Default
@@ -391,12 +391,21 @@ li > a:only-child:after { content: ''; }
     
     font-family: 'Audiowide';
     font-size: 50px;
-    letter-spacing: 8px;
+	letter-spacing: 8px;
+	
 }
+
 .services-Heading{
     margin-top: 30px;
     font-weight: bold;
-    letter-spacing: 9px;
+	letter-spacing: 9px;
+	color: white;
+}
+.portfolio-Heading{
+	margin-top: 30px;
+    font-weight: bold;
+	letter-spacing: 9px;
+	text-transform: capitalize;
 }
 .btn{
     margin-left: 10px;
@@ -576,4 +585,19 @@ select {
 .card-body :hover{
 	background: #16a085;
 	
+}
+
+@media all and (max-width : 400px){
+	.backimg{
+		background: url(Images/ban11.png) no-repeat center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		-ms-background-size: cover;
+		background-size: cover;
+		min-height: 80vh;
+	
+	}
+
+
 }
