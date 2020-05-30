@@ -220,7 +220,7 @@ li > a:only-child:after { content: ''; }
 		margin: 0;
 	}
 	nav a {
-		color: #333;
+		color: rgb(253, 247, 247);
 	}
 
 	/* Hide the navigation menu by default */
@@ -262,7 +262,7 @@ li > a:only-child:after { content: ''; }
 	/* Display Dropdown when clicked on Parent Lable */
 	[id^=drop]:checked + ul {
 		display: block;
-		background: rgba(219, 215, 211, 0.7);
+		background: rgba(27, 26, 26, 0.8);
 		padding: 15px 0;
 		width:100%;
 		text-align: center;
