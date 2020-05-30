@@ -582,10 +582,7 @@ select {
     background: rgba(0, 0, 0, 0.36);
     
 } */
-.card-body :hover{
-	background: #16a085;
-	
-}
+
 
 @media all and (max-width : 400px){
 	.backimg{
