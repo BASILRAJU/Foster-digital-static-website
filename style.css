@@ -5,9 +5,18 @@ body {
 	margin: 0;
 	padding: 0;
     font-size: 100%;
-    background: #fff;
+    background: rgb(43, 42, 42);
    font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
+}
+section{
+	background: rgb(43, 42, 42);
+
+}
+
+#about .about-section .inner-container{
+	background: rgb(43, 42, 42);
+
 }
 select { 
     -webkit-appearance: none;
@@ -377,6 +386,7 @@ li > a:only-child:after { content: ''; }
 
 }
 .layer {
+	
     background:rgba(0, 0, 0, 0.45);
     min-height: 100vh;
 }
@@ -427,7 +437,8 @@ li > a:only-child:after { content: ''; }
 	border: none;
 }
 .contactimg{
-	background: url(Images/triangles.png) no-repeat center;
+	/* background: url(Images/triangles.png) no-repeat center; */
+	background: rgb(43, 42, 42);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -437,13 +448,15 @@ li > a:only-child:after { content: ''; }
 
 }
 .layer1{
-	background:rgba(0, 0, 0, 0.55);
+	background: rgba(43, 42, 42, 9)
+	/* background:rgba(0, 0, 0, 0.55); */
     min-height: 100vh;
 
 }
 /*--  text --*/
 .text {
-    background: url(Images/triangles.png) no-repeat center;
+	background: rgb(43, 42, 42);
+    /* background: url(Images/triangles.png) no-repeat center; */
     background-size: cover;
     position: relative;
 }
@@ -454,8 +467,9 @@ li > a:only-child:after { content: ''; }
     height: 100%;
     top: 0;
     left: 0;
-    opacity: 0.6;
-    background: #000;
+	opacity: 0.6;
+	background: rgb(43, 42, 42);
+    /* background: #000; */
 }
 .text h2.heading{
 	color: #fff;

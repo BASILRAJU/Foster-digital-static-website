@@ -13,7 +13,8 @@ body
     justify-content: center;
     align-items: center;
     
-    background: #112d42;
+    /* background: #112d42; */
+    background: url('images/321.PNG');
 }
 section
 {
@@ -28,7 +29,8 @@ section::before
     left: 0;
     width: 50%;
     height: 100%;
-    background: #03a9f4;
+    /* background: #03a9f4; */
+    background: url('images/321.PNG');
 }
 section .container
 {
