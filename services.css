@@ -7,7 +7,7 @@
     justify-content: space-around;
     flex-flow: row nowrap;
     color: #fff;
-    margin: 2% 2% 2% 2%;
+    margin: 3% 0% 3% 0%;
 }
 .team-tile div {
     display: flex;
