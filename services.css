@@ -1,0 +1,20 @@
+.team-tile {
+    background: #1d2327 ;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row nowrap;
+    color: #fff;
+    margin: 2% 2% 2% 2%;
+}
+.team-tile div {
+    display: flex;
+    align-items: center;
+}
+.teams-h {
+    width: 100%;
+    justify-content: center;
+    padding: 5%;
+}

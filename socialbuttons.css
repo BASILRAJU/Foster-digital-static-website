@@ -24,7 +24,7 @@
   /* background: linear-gradient(45deg,#22a6b3,#30336b); */
   border-radius: 50%;
   z-index: -1;
-  transition: 0.3s ease-in;
+  transition: 0.5s ease-in;
 }
 
 .social-Buttons a:hover::before{
@@ -32,7 +32,7 @@
 }
 
 .social-Buttons a i{
-  transition: 0.3s ease-in;
+  transition: 0.5s ease-in;
 }
 
 .social-Buttons a:hover i{
